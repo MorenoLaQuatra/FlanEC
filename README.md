@@ -99,7 +99,7 @@ If you use this code or the models in your research, please cite the following p
 ```bibtex
 @inproceedings{laquatra2024flanec,
   title={FLANEC: Exploring FLAN-T5 for Post-ASR Error Correction},
-  author={La Quatra, Moreno and Salerno, Valerio and Tsao, Yu and Sabato Marco, Siniscalchi},
+  author={La Quatra, Moreno and Salerno, Valerio Mario and Tsao, Yu and Siniscalchi, Sabato Marco},
   booktitle={Proceedings of the 2024 IEEE Workshop on Spoken Language Technology},
   year={2024}
 }
