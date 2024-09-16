@@ -2,6 +2,8 @@
 
 This repository contains the code and experiments for the paper "Exploring Flan-T5 for Post-ASR Error Correction". The project investigates the use of the Flan-T5 model for Generative Speech Error Correction (GenSEC) to enhance ASR outputs by mapping n-best hypotheses into a single, accurate transcription.
 
+The paper is accepted at the [2024 IEEE Workshop on Spoken Language Technology](https://www.ieeeslt2024.org/) - [GenSEC Challenge](https://sites.google.com/view/gensec-challenge/home). Final information about the paper will be updated upon proceedings publication.
+
 > [!IMPORTANT]  
 > All the code for running the experiments is available in this repository. The pre-trained models are available on the Hugging Face model hub. [Open an issue](https://github.com/MorenoLaQuatra/FlanEC/issues/new) if you find any issue or need help.
 
