@@ -1,0 +1,42 @@
+training:
+  checkpoint_dir: "ckpt-t5-base/"
+  epochs: 10
+  batch_size: 4
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  log_dir: "logs"
+  logging_steps: 1000
+  eval_strategy: "epoch"
+  save_strategy: "epoch"
+  eval_steps: 2000
+  save_steps: 2000
+  load_best_model_at_end: true
+  learning_rate: 0.00005
+  dataloader_num_workers: 4
+  save_total_limit: 3
+  use_cuda: true
+  fp16: false
+  metric_for_best_model: "wer"
+  greater_is_better: false
+  hub_model_id: "leave_empty"
+  push_to_hub: false
+  gradient_accumulation_steps: 1
+
+model:
+  model_tag: "google/flan-t5-base"
+
+data:
+  train_file: "data/all_data_train.json"
+  test_file: "data/all_data_test.json"
+  dataset_file: null
+  max_input_length: 512
+  max_output_length: 128
+  train_val_split: 0.99
+  truncation: true
+  prefix_prompt: "Generate the correct transcription for the following n-best list of ASR hypotheses:"
+  suffix_prompt: ""
+  use_source: false
+
+inference:
+  specific_test_file: ""
+  specific_checkpoint_dir: "morenolq/flanec-base-cd"
