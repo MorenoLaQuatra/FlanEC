@@ -69,6 +69,20 @@ If you want to use pre-trained models to reproduce the results, you can use the 
 python infer_flanec_lora.py --config config/flan_t5_base_lora.yaml --inference.specific_test_file <path-to-test-json>
 ```
 
+### Inference prompt format
+
+To generate the correct trascription from a list of hypothesis, you want to use the same prompt used during training. The prompt should be a JSON file with the following format:
+
+```txt
+Generate the correct transcription for the following n-best list of ASR hypotheses:
+1. <hypothesis-1>
+2. <hypothesis-2>
+...
+5. <hypothesis-5>
+```
+
+The model should be able to generate the correct transcription from the list of hypotheses. For more information please refer to [our paper - missing for the moment, will be updated upon publication](#).
+
 ## Acknowledgements
 
 - GenSEC Challenge: https://sites.google.com/view/gensec-challenge/home
