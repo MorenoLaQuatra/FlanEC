@@ -97,11 +97,13 @@ If you use this code or the models in your research, please cite the following p
 **the official citation will be updated upon SLT 2024 proceedings publication**
 
 ```bibtex
-@inproceedings{laquatra2024flanec,
-  title={FLANEC: Exploring FLAN-T5 for Post-ASR Error Correction},
-  author={La Quatra, Moreno and Salerno, Valerio Mario and Tsao, Yu and Siniscalchi, Sabato Marco},
-  booktitle={Proceedings of the 2024 IEEE Workshop on Spoken Language Technology},
-  year={2024}
+@INPROCEEDINGS{LaQuatra24FlanEC,
+  author={Quatra, Moreno La and Salerno, Valerio Mario and Tsao, Yu and Siniscalchi, Sabato Marco},
+  booktitle={2024 IEEE Spoken Language Technology Workshop (SLT)}, 
+  title={FlanEC: Exploring Flan-T5 for Post-ASR Error Correction}, 
+  year={2024},
+  pages={608-615},
+  doi={10.1109/SLT61566.2024.10832257}
 }
 ```
 
