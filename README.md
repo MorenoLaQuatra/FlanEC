@@ -94,8 +94,6 @@ The model should be able to generate the correct transcription from the list of 
 
 If you use this code or the models in your research, please cite the following paper:
 
-**the official citation will be updated upon SLT 2024 proceedings publication**
-
 ```bibtex
 @INPROCEEDINGS{LaQuatra24FlanEC,
   author={Quatra, Moreno La and Salerno, Valerio Mario and Tsao, Yu and Siniscalchi, Sabato Marco},
