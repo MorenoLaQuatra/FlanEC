@@ -85,7 +85,7 @@ Generate the correct transcription for the following n-best list of ASR hypothes
 5. <hypothesis-5>
 ```
 
-The model should be able to generate the correct transcription from the list of hypotheses. For more information please refer to [our paper - missing for the moment, will be updated upon publication](#).
+The model should be able to generate the correct transcription from the list of hypotheses. For more information please refer to [our paper](https://arxiv.org/abs/2501.12979).
 
 ## Acknowledgements
 
